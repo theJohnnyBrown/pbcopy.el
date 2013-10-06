@@ -1,6 +1,10 @@
-;;; pbcopy.el --- Emacs Interface to pbcopy
+;;; pbcopy.el --- OS X clipboard integration for Emacs
 
 ;; Copyright (C) 2011 Daniel Nelson, based on xclip.el, by Leo Shidai Liu
+
+;; Author: Daniel Nelson
+;; URL https://github.com/jkp/pbcopy.el
+;; Version: 0.1.0
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -24,6 +28,7 @@
 ;; functionality). All I did was modify xclip.el to work with pbcopy
 ;; and pbpaste. The real thanks go to Leo Shidai Liu, the author of
 ;; xclip.el.
+;; Credit is also due to [Kyle Bolton](https://github.com/kb)
 
 ;; Activate via:
 ;; (require 'pbcopy)
@@ -113,3 +118,6 @@ See `x-set-selection'."
 
 
 (provide 'pbcopy)
+
+;;; pbcopy.el ends here
+
